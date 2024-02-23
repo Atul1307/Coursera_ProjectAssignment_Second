@@ -1,0 +1,36 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+  font-size: 105%;
+}
+
+header {
+  background-color: #fefeab;
+}
+
+nav {
+  background-color: #feaecd;
+}
+
+main {
+  background-color: #eacdfb;
+  font-size: 110%
+}
+
+footer {
+  background-color: #bcdeab;
+}
+
+li {
+  display: inline-block;
+  width: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #feaecd;
+}
+
+p {
+  line-height: normal;
+}
