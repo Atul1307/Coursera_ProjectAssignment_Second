@@ -9,6 +9,12 @@ header {
 
 nav {
   background-color: #feaecd;
+  display: inline-block;
+  width: 80%;
+}
+
+nav>li {
+  margin: 20px;
 }
 
 main {
@@ -33,4 +39,24 @@ h1 {
 
 p {
   line-height: normal;
+}
+
+.grid {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  margin: 20px;
+}
+
+.grid>img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
